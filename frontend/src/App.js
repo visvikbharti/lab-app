@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Welcome from './components/Welcome';
+import Analyzer from './components/Analyzer';
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <header className="App-header">
         <h1>Welcome to the Lab App</h1>
         <Welcome />
+        <Analyzer />
       </header>
     </div>
   );
